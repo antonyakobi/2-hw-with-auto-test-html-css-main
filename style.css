@@ -45,7 +45,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
 }
 
 
@@ -80,7 +80,8 @@ select {
     /* Стили для маркированного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0 20px;
+    /* padding-left: 20px; */
     /* Подумать над 24, так лучше видно */
     list-style-image: url(./images/solar_map-arrow-up-bold.svg);
 }
@@ -89,7 +90,8 @@ select {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px; 
+    padding: 0 20px;
+    /* padding-left: 20px;  */
     /* Подумать над 24, так лучше видно */
 }
 
